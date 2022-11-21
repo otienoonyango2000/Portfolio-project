@@ -291,7 +291,7 @@ nav__list{
 /*My services*/
 .my__services{
     background-color: var(--clr-dark);
-    background-image: url(./_\ \(1\).jpeg);
+    background-image: url(../image/laptop.jpeg);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -390,7 +390,7 @@ nav__list{
     background-color: var(--clr-dark);
     color: light;
     text-align: center;
-    background:;
+    /*background:;*/
     padding-left: 5px;
     
 }
