@@ -453,3 +453,56 @@ nav__list{
 .social-list__link{
     padding: .5em;
 }
+
+.button{
+    background-color: coral;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0,0.5);
+}
+
+.modal-content{
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgb(0,0,0,0.5), 0 7px 20px 0 rgb(0,0,0,0.17);
+}
+
+.closebtn{
+    color: #ccc;
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.closebtn:hover,.closebtn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.para{
+    text-align: left;
+}

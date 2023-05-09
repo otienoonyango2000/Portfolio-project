@@ -21,6 +21,41 @@ function changeSection() {
     window.location = "#work";
 }
 
+// get modal element
+const modal = document.getElementById('simplemodal');
+// get open modal button
+const openBtn = document.getElementById('modalbtn');
+// get close button
+const closeBtn = document.getElementsByClassName('closebtn')[0];
+
+//listen for openclick
+openBtn.addEventListener('click', openModal);
+//listen for closeclick
+closeBtn.addEventListener('click', closeModal);
+//listen for outsideclick
+window.addEventListener('click', clickOutSide);
+
+//function to open modal
+function openModal(e) {
+    e.preventDefault();
+    // console.log(123)
+    modal.style.display = 'block';
+};
+
+//function to close modal
+function closeModal(e) {
+    e.preventDefault();
+    modal.style.display = 'none';
+};
+
+//function to close modal IF CLICK OUTSIDE
+function clickOutSide(e) {
+    e.preventDefault();
+    if(e.target == modal){
+    modal.style.display = 'none';
+}
+};
+
 
 
 
