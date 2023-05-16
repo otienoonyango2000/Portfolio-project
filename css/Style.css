@@ -485,6 +485,8 @@ nav__list{
     padding: 20px;
     width: 70%;
     box-shadow: 0 5px 8px 0 rgb(0,0,0,0.5), 0 7px 20px 0 rgb(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
 }
 
 .closebtn{
@@ -505,4 +507,9 @@ nav__list{
 
 .para{
     text-align: left;
+}
+
+@keyframes modalopen{
+    from { opacity: 0;}
+    to { opacity: 1;}
 }
