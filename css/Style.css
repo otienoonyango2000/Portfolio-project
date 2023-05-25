@@ -467,6 +467,8 @@ nav__list{
     color: #000;
 }
 
+
+
 .modal{
     display: none;
     position: fixed;
@@ -507,6 +509,11 @@ nav__list{
 
 .para{
     text-align: left;
+}
+
+.hackerrank{
+    height: 96%;
+    width: 100%;
 }
 
 @keyframes modalopen{
